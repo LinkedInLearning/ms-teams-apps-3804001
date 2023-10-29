@@ -1,0 +1,46 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "${{TEAMS_APP_ID}}",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://www.example.com",
+        "privacyUrl": "https://www.example.com/privacy",
+        "termsOfUseUrl": "https://www.example.com/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Custom Tab-${{TEAMSFX_ENV}}",
+        "full": "Full name for Custom Tab"
+    },
+    "description": {
+        "short": "Short description of Custom Tab",
+        "full": "Full description of Custom Tab"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [],
+    "composeExtensions": [],
+    "staticTabs": [
+        {
+            "entityId": "index0",
+            "name": "Tab",
+            "contentUrl": "${{TAB_ENDPOINT}}/tab",
+            "websiteUrl": "${{TAB_ENDPOINT}}/tab",
+            "scopes": [
+                "groupChat", "team"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "${{TAB_DOMAIN}}"
+    ]
+}
