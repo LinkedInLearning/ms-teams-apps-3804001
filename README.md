@@ -6,16 +6,16 @@ Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den 
 
 ## Anleitung
 
-Im Rahmen dieses Kurses entwickeln Sie eine erste Teams-App, die in einem Teamraum als Dashboard für den Informationsaustausch innerhalb eines Teams genutzt werden kann. Dabei soll jedes Teammitglied durch eine Spalte repräsentiert werden und perspektivisch können auf diesem Dashboard die Aufgaben der Teammitglieder aufgerufen sowie Dokumente, Links und ein Status durch jedes Teammitglied erfasst und mit dem gesamten Team geteilt werden.
+Im Rahmen dieses Kurses lernen Sie, wie Sie mit Hilfe des Teams Toolkits Apps für Microsoft Teams entwickeln können. Dabei werden Sie die Unterschiede in der Konfiguration einer persönlichen App im Vergleich zu der Konfiguration einer Registerkarte oder einer In-Meeting-App kennenlernen. Außerdem erfahren Sie, was eine Teams-App zu einer sogenannten Collaborative App macht und wie Sie eine solche App entwickeln können. Darauf aufbauend entwickeln Sie eine erste Collaborative App, die in einer Teams-Besprechung genutzt werden kann, um alle teilnehmenden Personen gleichzeitig und gleichermaßen in die Entscheidungsfindung einzubinden.
 
-Im Kurs wird das Fundament für diese Lösung gelegt, indem die App als Registerkarte in einem beliebigen Teamraum hinzugefügt werden kann und alle zu dem Team gehörenden Personen in einem Spaltenlayout darstellt werden. Dieses Repository stellt Ihnen die im Rahmen dieses Kurses erstellte Lösung sowie die verwendeten Code-Snippets für die weitere Entwicklung zur Verfügung. So können Sie die praktischen Übungen dieses Kurses besser nachvollziehen und die App im Anschluss an diesen Kurs um die noch fehlenden Funktionen erweitern. Vielleicht stellen Sie die App im Rahmen der Weiterentwicklung sogar als persönliche App oder als App für eine Teams-Besprechung bereit.
+Im Kurs wird das Fundament für diese Lösung gelegt, indem Sie zuvor alle Varianten der Teams-App-Entwicklung mit dem Teams Toolkit kennenlernen und darüber hinaus auch die Verwendung des Microsoft Graph für den Datenaustausch mit den verschiedensten Microsoft-365-Diensten erlernen und Azure DevOps für die automatisierte Bereitstellung Ihrer App vorgestellt bekommen. Dieses Repository stellt Ihnen die im Rahmen dieses Kurses erstellte Lösung sowie die verwendeten Code-Snippets und Projektmappen für die weitere Entwicklung zur Verfügung. So können Sie die praktischen Übungen dieses Kurses besser nachvollziehen und die App im Anschluss an diesen Kurs um die noch fehlenden Funktionen erweitern.
 
 ## Installation
 
 1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - Einen Quellcode-Editor wie zum Beispiel Visual Studio Code und
-   - Docker Desktop (https://www.docker.com/products/docker-desktop/) oder 
-   - Node.js, Gulp und Yeoman inkl. SharePoint-Generator (eine Anleitung hierzu finden Sie bei Microsoft unter https://learn.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment)
+   - Visual Studio Code und
+   - das Teams Toolkit (Extension für Visual Studio Code) sowie
+   - Node.js (empfohlen wird die Version 18 für die meisten Beispiele https://nodejs.org/)
 2. Sie benötigen außerdem einen Microsoft-365-Tenant für die Entwicklung und das Testen Ihrer erstellten Apps. Unter https://developer.microsoft.com/en-us/microsoft-365/dev-program können Sie sich für das Microsoft 365 Developer Program registrieren. Sie erhalten über dieses Program einen für die Entwicklung vorgesehenen Microsoft-365-Tenant mit 25 E5-Developer-Lizenzen.
 3. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
 4. Für die Entwicklung können folgende Links für Sie interessant sein:
@@ -23,6 +23,8 @@ Im Kurs wird das Fundament für diese Lösung gelegt, indem die App als Register
    - Microsoft Graph Explorer: https://developer.microsoft.com/en-us/graph/graph-explorer
    - Fluent UI: https://developer.microsoft.com/en-us/fluentui#/
    - Fluent UI Northstar: https://fluentsite.z22.web.core.windows.net/0.66.2/
+   - Kontextinformationen abfragen: https://learn.microsoft.com/de-de/microsoftteams/platform/tabs/how-to/access-teams-context
+   - App-Manifestschema: https://learn.microsoft.com/de-de/microsoftteams/platform/resources/schema/manifest-schema
 
 ### Autor
 
