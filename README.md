@@ -1,8 +1,10 @@
-# [DE-Kursname hier eintragen]
+# Microsoft Teams erweitern – praktische Apps mit dem Teams Toolkit und Power Apps
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Microsoft Teams erweitern – praktische Apps mit dem Teams Toolkit und Power Apps`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
 ![COURSENAME][lil-thumbnail-url] 
+
+Aufbauend auf ihrem Einsteigerkurs für die Entwicklung erster Apps mit SPFx demonstriert Nicole Enders dieses mal, wie Sie Teams-Apps mit dem Teams Toolkit entwickeln sowie ein automatisiertes Deployment einrichten können. Nach einem Überblick über die verschiedenen Erweiterungsoptionen steigen Sie unter anderem in Microsoft Graph und Azure DevOps ein. Die gezeigten Beispiele gehen über die Entwicklung von Registerkarten und persönlichen Apps hinaus und erweitern Teams um Message Extensions, Bots sowie Meeting-Apps. Außerdem lernen Sie, wie Sie Apps entwickeln, die ähnlich wie das Whiteboard und Microsoft Loop auf eine zeitgleiche Nutzung ausgerichtet sind – sogenannte Collaborative Apps. Sie erfahren, wie Sie diese Art von Apps mit dem Teams Toolkit oder auch im Low-Code-Bereich mit Power Apps entwickeln können.
 
 ## Anleitung
 
@@ -35,5 +37,5 @@ _Managing Consultant & Microsoft MVP für Microsoft 365 Apps & Services_
 Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/nicole_enders) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
+[lil-course-url]: https://www.linkedin.com/learning/microsoft-teams-erweitern-praktische-apps-mit-dem-teams-toolkit-und-power-apps
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGI5iB2UFl1Pw/learning-public-crop_675_1200/0/1705924776472?e=2147483647&v=beta&t=kx9__DX-xYGggysQvs0eXMgiNNnHgCoyJxjc8K_4_b0
