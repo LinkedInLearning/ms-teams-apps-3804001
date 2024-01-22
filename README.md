@@ -34,7 +34,7 @@ Im Kurs wird das Fundament für diese Lösung gelegt, indem Sie zuvor alle Varia
 
 _Managing Consultant & Microsoft MVP für Microsoft 365 Apps & Services_
 
-Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/nicole_enders) an.
+Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/nicole-enders) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/microsoft-teams-erweitern-praktische-apps-mit-dem-teams-toolkit-und-power-apps
